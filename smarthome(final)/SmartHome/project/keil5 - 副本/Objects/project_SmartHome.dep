@@ -1,1763 +1,0 @@
-Dependencies for Project 'project', Target 'SmartHome': (DO NOT MODIFY !)
-F (..\..\library\CMSIS\GD\GD32F4xx\Source\system_gd32f4xx.c)(0x66C8475C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\system_gd32f4xx.o --omf_browse .\objects\system_gd32f4xx.crf --depend .\objects\system_gd32f4xx.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-F (..\..\library\CMSIS\GD\GD32F4xx\Source\ARM\startup_gd32f407_427.s)(0x66C8475C)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 525" --pd "GD32F427 SETA 1"--list .\listings\startup_gd32f407_427.lst --xref -o .\objects\startup_gd32f407_427.o --depend .\objects\startup_gd32f407_427.d)
-F (..\..\library\GD32F4xx_standard_peripheral\Source\gd32f4xx_rcu.c)(0x66C8475C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\gd32f4xx_rcu.o --omf_browse .\objects\gd32f4xx_rcu.crf --depend .\objects\gd32f4xx_rcu.d)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-F (..\..\library\GD32F4xx_standard_peripheral\Source\gd32f4xx_usart.c)(0x66C8475C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\gd32f4xx_usart.o --omf_browse .\objects\gd32f4xx_usart.crf --depend .\objects\gd32f4xx_usart.d)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-F (..\..\library\GD32F4xx_standard_peripheral\Source\gd32f4xx_misc.c)(0x66C8475C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\gd32f4xx_misc.o --omf_browse .\objects\gd32f4xx_misc.crf --depend .\objects\gd32f4xx_misc.d)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-F (..\..\library\GD32F4xx_standard_peripheral\Source\gd32f4xx_adc.c)(0x66C8475C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\gd32f4xx_adc.o --omf_browse .\objects\gd32f4xx_adc.crf --depend .\objects\gd32f4xx_adc.d)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-F (..\..\library\GD32F4xx_standard_peripheral\Source\gd32f4xx_gpio.c)(0x66C8475C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\gd32f4xx_gpio.o --omf_browse .\objects\gd32f4xx_gpio.crf --depend .\objects\gd32f4xx_gpio.d)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-F (..\..\library\GD32F4xx_standard_peripheral\Source\gd32f4xx_exti.c)(0x66C8475C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\gd32f4xx_exti.o --omf_browse .\objects\gd32f4xx_exti.crf --depend .\objects\gd32f4xx_exti.d)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-F (..\..\library\GD32F4xx_standard_peripheral\Source\gd32f4xx_syscfg.c)(0x66C8475C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\gd32f4xx_syscfg.o --omf_browse .\objects\gd32f4xx_syscfg.crf --depend .\objects\gd32f4xx_syscfg.d)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-F (..\..\library\GD32F4xx_standard_peripheral\Source\gd32f4xx_i2c.c)(0x66C8475C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\gd32f4xx_i2c.o --omf_browse .\objects\gd32f4xx_i2c.crf --depend .\objects\gd32f4xx_i2c.d)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-F (..\..\library\GD32F4xx_standard_peripheral\Source\gd32f4xx_spi.c)(0x66C8475C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\gd32f4xx_spi.o --omf_browse .\objects\gd32f4xx_spi.crf --depend .\objects\gd32f4xx_spi.d)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-F (..\..\library\GD32F4xx_standard_peripheral\Source\gd32f4xx_timer.c)(0x66C8475C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\gd32f4xx_timer.o --omf_browse .\objects\gd32f4xx_timer.crf --depend .\objects\gd32f4xx_timer.d)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-F (..\..\library\GD32F4xx_standard_peripheral\Source\gd32f4xx_dma.c)(0x66C8475C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\gd32f4xx_dma.o --omf_browse .\objects\gd32f4xx_dma.crf --depend .\objects\gd32f4xx_dma.d)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-F (..\..\board\src\board.c)(0x66D810A0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\board.o --omf_browse .\objects\board.crf --depend .\objects\board.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-I (..\..\board\inc\board.h)(0x66C8478A)
-I (..\..\board\inc\board_led.h)(0x66CD2504)
-I (..\..\board\inc\board_uart.h)(0x66CD2504)
-F (..\..\board\src\board_led.c)(0x66F1812C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\board_led.o --omf_browse .\objects\board_led.crf --depend .\objects\board_led.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\board\inc\board_led.h)(0x66CD2504)
-F (..\..\board\src\board_uart.c)(0x66F95ED4)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\board_uart.o --omf_browse .\objects\board_uart.crf --depend .\objects\board_uart.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\board\inc\board_uart.h)(0x66CD2504)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-F (..\..\board\src\gd32f4xx_it.c)(0x66C8478A)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\gd32f4xx_it.o --omf_browse .\objects\gd32f4xx_it.crf --depend .\objects\gd32f4xx_it.d)
-I (..\..\board\inc\gd32f4xx_it.h)(0x66C8478A)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-F (..\..\board\src\systick.c)(0x66C8478A)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-F (..\..\bsp\src\bsp_adc.c)(0x66CD2504)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\bsp_adc.o --omf_browse .\objects\bsp_adc.crf --depend .\objects\bsp_adc.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\bsp\inc\bsp_adc.h)(0x66CD2504)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-F (..\..\bsp\src\bsp_basic_timer.c)(0x66CD2504)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\bsp_basic_timer.o --omf_browse .\objects\bsp_basic_timer.crf --depend .\objects\bsp_basic_timer.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\bsp\inc\bsp_basic_timer.h)(0x66CD2504)
-F (..\..\bsp\src\bsp_led.c)(0x66C8478A)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\bsp_led.o --omf_browse .\objects\bsp_led.crf --depend .\objects\bsp_led.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\bsp\inc\bsp_led.h)(0x66C8478A)
-F (..\..\bsp\src\bsp_pwm.c)(0x66CD2504)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\bsp_pwm.o --omf_browse .\objects\bsp_pwm.crf --depend .\objects\bsp_pwm.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\bsp\inc\bsp_pwm.h)(0x66CD2504)
-F (..\..\bsp\src\bsp_usart.c)(0x66D023AE)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\bsp_usart.o --omf_browse .\objects\bsp_usart.crf --depend .\objects\bsp_usart.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-I (..\..\bsp\inc\bsp_usart.h)(0x66CD2504)
-F (..\..\module\src\beep.c)(0x66CD2504)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\beep.o --omf_browse .\objects\beep.crf --depend .\objects\beep.d)
-I (..\..\module\inc\beep.h)(0x66CD2504)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-I (..\..\bsp\inc\bsp_pwm.h)(0x66CD2504)
-F (..\..\module\src\bmp180.c)(0x66CD2504)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\bmp180.o --omf_browse .\objects\bmp180.crf --depend .\objects\bmp180.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\math.h)(0x569DEA3A)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-I (..\..\module\inc\bmp180.h)(0x66CD2504)
-F (..\..\module\src\dht11.c)(0x66CD2504)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\dht11.o --omf_browse .\objects\dht11.crf --depend .\objects\dht11.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\module\inc\dht11.h)(0x66CD2504)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-F (..\..\module\src\dwin.c)(0x66D0232A)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\dwin.o --omf_browse .\objects\dwin.crf --depend .\objects\dwin.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\module\inc\dwin.h)(0x66CD2504)
-F (..\..\module\src\esp8266.c)(0x66FAC018)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\esp8266.o --omf_browse .\objects\esp8266.crf --depend .\objects\esp8266.d)
-I (..\..\module\inc\esp8266.h)(0x66FAC4D8)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\string.h)(0x569DEA3A)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-F (..\..\module\src\flame.c)(0x66CD2504)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\flame.o --omf_browse .\objects\flame.crf --depend .\objects\flame.d)
-I (..\..\module\inc\flame.h)(0x66CD2504)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-F (..\..\module\src\fpm383.c)(0x66D12820)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\fpm383.o --omf_browse .\objects\fpm383.crf --depend .\objects\fpm383.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\module\inc\fpm383.h)(0x66D12A00)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-F (..\..\module\src\hx1838.c)(0x66CD2504)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\hx1838.o --omf_browse .\objects\hx1838.crf --depend .\objects\hx1838.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-I (..\..\module\inc\hx1838.h)(0x66CD2504)
-F (..\..\module\src\ky037.c)(0x66CD2504)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\ky037.o --omf_browse .\objects\ky037.crf --depend .\objects\ky037.d)
-I (..\..\module\inc\ky037.h)(0x66CD2504)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-I (..\..\bsp\inc\bsp_basic_timer.h)(0x66CD2504)
-I (..\..\module\inc\sr602.h)(0x66CD2504)
-I (..\..\module\inc\mq2.h)(0x66CD2504)
-F (..\..\module\src\motor.c)(0x66CD2504)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\motor.o --omf_browse .\objects\motor.crf --depend .\objects\motor.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\bsp\inc\bsp_pwm.h)(0x66CD2504)
-I (..\..\module\inc\motor.h)(0x66CD2504)
-F (..\..\module\src\mq2.c)(0x66CD2504)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\mq2.o --omf_browse .\objects\mq2.crf --depend .\objects\mq2.d)
-I (..\..\module\inc\mq2.h)(0x66CD2504)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\math.h)(0x569DEA3A)
-F (..\..\module\src\rc522.c)(0x66C8478A)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\rc522.o --omf_browse .\objects\rc522.crf --depend .\objects\rc522.d)
-I (..\..\module\inc\rc522.h)(0x66C8478A)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\string.h)(0x569DEA3A)
-F (..\..\module\src\relay.c)(0x66CD2504)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\relay.o --omf_browse .\objects\relay.crf --depend .\objects\relay.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-I (..\..\module\inc\relay.h)(0x66CD2504)
-F (..\..\module\src\sr602.c)(0x66CD2504)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\sr602.o --omf_browse .\objects\sr602.crf --depend .\objects\sr602.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\module\inc\sr602.h)(0x66CD2504)
-F (..\..\module\src\step2p4w.c)(0x66D806F2)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\step2p4w.o --omf_browse .\objects\step2p4w.crf --depend .\objects\step2p4w.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\module\inc\step2p4w.h)(0x66CD2504)
-I (..\..\bsp\inc\bsp_basic_timer.h)(0x66CD2504)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-F (..\..\module\src\su03t.c)(0x66D04340)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\su03t.o --omf_browse .\objects\su03t.crf --depend .\objects\su03t.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\module\inc\su03t.h)(0x66CD2504)
-F (..\..\module\src\tc1508.c)(0x66CD2504)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\tc1508.o --omf_browse .\objects\tc1508.crf --depend .\objects\tc1508.d)
-I (..\..\module\inc\tc1508.h)(0x66CD2504)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-I (..\..\bsp\inc\bsp_basic_timer.h)(0x66CD2504)
-F (..\..\module\src\temt6000.c)(0x66CD2504)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\temt6000.o --omf_browse .\objects\temt6000.crf --depend .\objects\temt6000.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\module\inc\temt6000.h)(0x66CD2504)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-F (..\..\module\src\ws2812.c)(0x66CD2504)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\ws2812.o --omf_browse .\objects\ws2812.crf --depend .\objects\ws2812.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-I (..\..\module\inc\ws2812.h)(0x66CD2504)
-F (..\..\app\src\main.c)(0x66FAC748)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-I (..\..\board\inc\board.h)(0x66C8478A)
-I (..\..\app\inc\test.h)(0x66CBD664)
-I (..\..\board\inc\board_led.h)(0x66CD2504)
-I (..\..\module\inc\esp8266.h)(0x66FAC4D8)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\string.h)(0x569DEA3A)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-F (..\..\app\src\test.c)(0x66F962A9)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\test.o --omf_browse .\objects\test.crf --depend .\objects\test.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-I (..\..\app\inc\test.h)(0x66CBD664)
-I (..\..\board\inc\board_uart.h)(0x66CD2504)
-I (..\..\board\inc\board_led.h)(0x66CD2504)
-I (..\..\module\inc\beep.h)(0x66CD2504)
-I (..\..\module\inc\bmp180.h)(0x66CD2504)
-I (..\..\module\inc\dht11.h)(0x66CD2504)
-I (..\..\module\inc\dwin.h)(0x66CD2504)
-I (..\..\module\inc\esp8266.h)(0x66FAC4D8)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\string.h)(0x569DEA3A)
-I (..\..\module\inc\flame.h)(0x66CD2504)
-I (..\..\module\inc\fpm383.h)(0x66D12A00)
-I (..\..\module\inc\hx1838.h)(0x66CD2504)
-I (..\..\module\inc\ky037.h)(0x66CD2504)
-I (..\..\bsp\inc\bsp_basic_timer.h)(0x66CD2504)
-I (..\..\module\inc\motor.h)(0x66CD2504)
-I (..\..\module\inc\mq2.h)(0x66CD2504)
-I (..\..\module\inc\rc522.h)(0x66C8478A)
-I (..\..\module\inc\relay.h)(0x66CD2504)
-I (..\..\module\inc\sr602.h)(0x66CD2504)
-I (..\..\module\inc\step2p4w.h)(0x66CD2504)
-I (..\..\module\inc\su03t.h)(0x66CD2504)
-I (..\..\module\inc\tc1508.h)(0x66CD2504)
-I (..\..\module\inc\temt6000.h)(0x66CD2504)
-I (..\..\module\inc\ws2812.h)(0x66CD2504)
-F (.\test_init.c)(0x66F968D5)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\library\GD32F4xx_standard_peripheral\Include -I ..\..\library\CMSIS\GD\GD32F4xx\Include -I ..\..\library\CMSIS -I ..\..\board\inc -I ..\..\bsp\inc -I ..\..\module\inc -I ..\..\app\inc-I.\RTE\_SmartHome-I"D:\Program Files\KEIL V5\core\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.2.0\Device\F4XX\Include"-I"D:\Program Files\KEIL V5\core\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DGD32F427 -DGD32F4XX -DGD32F407 -DGD32F427-o .\objects\test_init.o --omf_browse .\objects\test_init.crf --depend .\objects\test_init.d)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\..\library\CMSIS\core_cmInstr.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cmFunc.h)(0x66C8475C)
-I (..\..\library\CMSIS\core_cm4_simd.h)(0x66C8475C)
-I (..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x66C8475C)
-I (..\..\board\inc\gd32f4xx_libopt.h)(0x66C8478A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x66C8475C)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x66C8475C)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-I (..\..\board\inc\systick.h)(0x66C8478A)
-I (..\..\app\inc\test.h)(0x66CBD664)
-I (..\..\board\inc\board_uart.h)(0x66CD2504)
-I (..\..\board\inc\board_led.h)(0x66CD2504)
-I (..\..\module\inc\beep.h)(0x66CD2504)
-I (..\..\module\inc\bmp180.h)(0x66CD2504)
-I (..\..\module\inc\dht11.h)(0x66CD2504)
-I (..\..\module\inc\dwin.h)(0x66CD2504)
-I (..\..\module\inc\esp8266.h)(0x66FAC4D8)
-I (D:\Program Files\KEIL V5\core\ARM\ARMCC\include\string.h)(0x569DEA3A)
-I (..\..\module\inc\flame.h)(0x66CD2504)
-I (..\..\module\inc\fpm383.h)(0x66D12A00)
-I (..\..\module\inc\hx1838.h)(0x66CD2504)
-I (..\..\module\inc\ky037.h)(0x66CD2504)
-I (..\..\bsp\inc\bsp_basic_timer.h)(0x66CD2504)
-I (..\..\module\inc\motor.h)(0x66CD2504)
-I (..\..\module\inc\mq2.h)(0x66CD2504)
-I (..\..\module\inc\rc522.h)(0x66C8478A)
-I (..\..\module\inc\relay.h)(0x66CD2504)
-I (..\..\module\inc\sr602.h)(0x66CD2504)
-I (..\..\module\inc\step2p4w.h)(0x66CD2504)
-I (..\..\module\inc\su03t.h)(0x66CD2504)
-I (..\..\module\inc\tc1508.h)(0x66CD2504)
-I (..\..\module\inc\temt6000.h)(0x66CD2504)
-I (..\..\module\inc\ws2812.h)(0x66CD2504)
-F (.\test_init.h)(0x66F968D5)()
