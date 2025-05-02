@@ -1,0 +1,133 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: A YM, A, LIC=9WSKC-7FVGN-FWU2N-YXJPR-XCRLU-ZJJ4Z
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.18
+Toolchain Path:  D:\Program_Files\KEIL\ARM\ARMCC\bin\
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      UL2CM3.DLL V1.157.5.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+D:\board\keil mdk project\PID1\PROJECT\TEMPLATE.uvprojx
+Project File Date:  02/09/2025
+
+<h2>Output:</h2>
+*** Using Compiler '', folder: 'D:\Program_Files\KEIL\ARM\ARMCC\bin\'
+Build target 'TEMPLATE'
+compiling onenet.c...
+..\HW\Common\Typedefine.h(126): warning:  #1-D: last line of file ends without a newline
+  /*************************END OF FILE**********************/
+..\HW\Hardware\Port\Port.h(16): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Driver\DS18B20\DS18B20.h(30): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Application\Onenet\onenet.c(46): error:  #20: identifier "MQTT_PACKET_STRUCTURE" is undefined
+  	MQTT_PACKET_STRUCTURE mqttPacket = {NULL, 0, 0, 0};					//协?榘?
+..\HW\Application\Onenet\onenet.c(52): warning:  #223-D: function "UsartPrintf" declared implicitly
+  	UsartPrintf(USART_DEBUG, "OneNet_DevLink\r\n"
+..\HW\Application\Onenet\onenet.c(56): warning:  #223-D: function "MQTT_PacketConnect" declared implicitly
+  	if(MQTT_PacketConnect(PROID, AUTH_INFO, DEVID, 256, 0, MQTT_QOS_LEVEL0, NULL, NULL, 0, &mqttPacket) == 0)
+..\HW\Application\Onenet\onenet.c(56): error:  #20: identifier "MQTT_QOS_LEVEL0" is undefined
+  	if(MQTT_PacketConnect(
+ROID, 
+UTH_INFO, 
+EVID, 256, 0, MQTT_QOS_LEVEL0, NULL, NULL, 0, &mqttPacket) == 0)
+..\HW\Application\Onenet\onenet.c(58): warning:  #223-D: function "ESP01S_SendData" declared implicitly
+  		ESP01S_SendData(mqttPacket._data, mqttPacket._len);			//?洗?平台
+..\HW\Application\Onenet\onenet.c(60): warning:  #223-D: function "ESP01S_GetIPD" declared implicitly
+  		dataPtr = ESP01S_GetIPD(250);									//?却?平台??应
+..\HW\Application\Onenet\onenet.c(60): warning:  #513-D: a value of type "int" cannot be assigned to an entity of type "unsigned char *"
+  		dataPtr = ESP01S_GetIPD(250);									//?却?平台??应
+..\HW\Application\Onenet\onenet.c(63): warning:  #223-D: function "MQTT_UnPacketRecv" declared implicitly
+  			if(MQTT_UnPacketRecv(dataPtr) == MQTT_PKT_CONNACK)
+..\HW\Application\Onenet\onenet.c(63): error:  #20: identifier "MQTT_PKT_CONNACK" is undefined
+  			if(MQTT_UnPacketRecv(dataPtr) == MQTT_PKT_CONNACK)
+..\HW\Application\Onenet\onenet.c(65): warning:  #223-D: function "MQTT_UnPacketConnectAck" declared implicitly
+  				switch(MQTT_UnPacketConnectAck(dataPtr))
+..\HW\Application\Onenet\onenet.c(79): warning:  #223-D: function "MQTT_DeleteBuffer" declared implicitly
+  		MQTT_DeleteBuffer(&mqttPacket);								//删??
+..\HW\Application\Onenet\onenet.c(97): error:  #20: identifier "data" is undefined
+  	Temp = data[2]+(float)data[3]/10;
+..\HW\Application\Onenet\onenet.c(122): error:  #20: identifier "MQTT_PACKET_STRUCTURE" is undefined
+  	MQTT_PACKET_STRUCTURE mqttPacket = {NULL, 0, 0, 0};												//协?榘?
+..\HW\Application\Onenet\onenet.c(128): warning:  #223-D: function "UsartPrintf" declared implicitly
+  	UsartPrintf(USART_DEBUG, "Tips:	OneNet_SendData-MQTT\r\n");
+..\HW\Application\Onenet\onenet.c(136): warning:  #223-D: function "MQTT_PacketSaveData" declared implicitly
+  		if(MQTT_PacketSaveData(DEVID, body_len, NULL, 5, &mqttPacket) == 0)							//?獍?
+..\HW\Application\Onenet\onenet.c(141): warning:  #223-D: function "ESP01S_SendData" declared implicitly
+  			ESP01S_SendData(mqttPacket._data, mqttPacket._len);									//?洗??莸?平台
+..\HW\Application\Onenet\onenet.c(144): warning:  #223-D: function "MQTT_DeleteBuffer" declared implicitly
+  			MQTT_DeleteBuffer(&mqttPacket);															//删??
+..\HW\Application\Onenet\onenet.c(166): error:  #20: identifier "MQTT_PACKET_STRUCTURE" is undefined
+  	MQTT_PACKET_STRUCTURE mqttPacket = {NULL, 0, 0, 0};								//协?榘?
+..\HW\Application\Onenet\onenet.c(181): warning:  #223-D: function "MQTT_UnPacketRecv" declared implicitly
+  	type = MQTT_UnPacketRecv(cmd);
+..\HW\Application\Onenet\onenet.c(184): error:  #20: identifier "MQTT_PKT_CMD" is undefined
+  		case MQTT_PKT_CMD:															//?????路?
+..\HW\Application\Onenet\onenet.c(186): warning:  #223-D: function "MQTT_UnPacketCmd" declared implicitly
+  			result = MQTT_UnPacketCmd(cmd, &cmdid_topic, &req_payload, &req_len);	//?獬?topic????息??
+..\HW\Application\Onenet\onenet.c(189): warning:  #223-D: function "UsartPrintf" declared implicitly
+  				UsartPrintf(USART_DEBUG, "cmdid: %s, req: %s, req_len: %d\r\n", cmdid_topic, req_payload, req_len);
+..\HW\Application\Onenet\onenet.c(191): warning:  #223-D: function "MQTT_PacketCmdResp" declared implicitly
+  				if(MQTT_PacketCmdResp(cmdid_topic, req_payload, &mqttPacket) == 0)	//???罨馗??榘?
+..\HW\Application\Onenet\onenet.c(195): warning:  #223-D: function "ESP01S_SendData" declared implicitly
+  					ESP01S_SendData(mqttPacket._data, mqttPacket._len);			//?馗?????
+..\HW\Application\Onenet\onenet.c(196): warning:  #223-D: function "MQTT_DeleteBuffer" declared implicitly
+  					MQTT_DeleteBuffer(&mqttPacket);									//删??
+..\HW\Application\Onenet\onenet.c(202): error:  #20: identifier "MQTT_PKT_PUBACK" is undefined
+  		case MQTT_PKT_PUBACK:														//发??Publish??息，平台?馗吹?Ack
+..\HW\Application\Onenet\onenet.c(204): warning:  #223-D: function "MQTT_UnPacketPublishAck" declared implicitly
+  			if(MQTT_UnPacketPublishAck(cmd) == 0)
+..\HW\Application\Onenet\onenet.c(205): warning:  #223-D: function "UsartPrintf" declared implicitly
+  				UsartPrintf(USART_DEBUG, "Tips:	MQTT Publish Send OK\r\n");
+..\HW\Application\Onenet\onenet.c(214): warning:  #223-D: function "ESP01S_Clear" declared implicitly
+  	ESP01S_Clear();									//?蹇栈捍?
+..\HW\Application\Onenet\onenet.c(231): warning:  #223-D: function "atoi" declared implicitly
+  		num = atoi((const char *)numBuf);				//转为??值??式
+..\HW\Application\Onenet\onenet.c(234): error:  #20: identifier "MQTT_PKT_CMD" is undefined
+  	if(type == MQTT_PKT_CMD || type == MQTT_PKT_PUBLISH)
+..\HW\Application\Onenet\onenet.c(234): error:  #20: identifier "MQTT_PKT_PUBLISH" is undefined
+  	if(type == MQTT_PKT_CMD || type == MQTT_PKT_PUBLISH)
+..\HW\Application\Onenet\onenet.c(236): warning:  #223-D: function "MQTT_FreeBuffer" declared implicitly
+  		MQTT_FreeBuffer(cmdid_topic);
+..\HW\Application\Onenet\onenet.c: 26 warnings, 10 errors
+".\Objects\TEMPLATE.axf" - 10 Error(s), 26 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103C8
+  .\RTE\_TEMPLATE
+  D:\Program_Files\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\system_stm32f10x.c
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
