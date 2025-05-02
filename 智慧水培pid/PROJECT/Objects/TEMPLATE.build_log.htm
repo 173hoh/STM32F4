@@ -1,0 +1,263 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: A YM, A, LIC=9WSKC-7FVGN-FWU2N-YXJPR-XCRLU-ZJJ4Z
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.18
+Toolchain Path:  D:\Program_Files\KEIL\ARM\ARMCC\bin\
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+D:\board\keil mdk project\PID8(I2C)\PROJECT\TEMPLATE.uvprojx
+Project File Date:  03/21/2025
+
+<h2>Output:</h2>
+*** Using Compiler '', folder: 'D:\Program_Files\KEIL\ARM\ARMCC\bin\'
+Build target 'TEMPLATE'
+compiling main.c...
+..\HW\Common\Typedefine.h(126): warning:  #1-D: last line of file ends without a newline
+  /*************************END OF FILE**********************/
+..\HW\Hardware\Port\Port.h(16): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Driver\DS18B20\DS18B20.h(32): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Application\OLED\OLED.h(8): warning:  #1295-D: Deprecated declaration OLED_Init - give arg types
+  void OLED_Init();
+..\HW\Application\OLED\OLED.h(9): warning:  #1295-D: Deprecated declaration OLED_Clear - give arg types
+  void OLED_Clear();
+..\HW\Hardware\Timer\Timer.h(83): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Application\Task\Task.h(14): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\USER\main.c: 7 warnings, 0 errors
+compiling adc.c...
+..\Core\Src\adc.c(22): warning:  #223-D: function "Error_Handler" declared implicitly
+          Error_Handler();
+..\Core\Src\adc.c(9): warning:  #177-D: variable "sConfig" was declared but never referenced
+      ADC_ChannelConfTypeDef sConfig = {0};
+..\Core\Src\adc.c(48): warning:  #223-D: function "Error_Handler" declared implicitly
+          Error_Handler();
+..\Core\Src\adc.c(57): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\adc.c(35): warning:  #177-D: variable "sConfig" was declared but never referenced
+      ADC_ChannelConfTypeDef sConfig = {0};
+..\Core\Src\adc.c: 5 warnings, 0 errors
+compiling Debug.c...
+..\HW\Application\PID\PID.h(46): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Common\Debug.c(64): warning:  #223-D: function "atoi" declared implicitly
+          mqtt_value = atoi(equal_sign + 1);  // Êè?Âè? '=' Âè?Âê?Èù?Áö?Êï?ÂÄ?
+..\HW\Common\Debug.c: 2 warnings, 0 errors
+compiling gpio.c...
+compiling PID.c...
+..\HW\Common\Typedefine.h(126): warning:  #1-D: last line of file ends without a newline
+  /*************************END OF FILE**********************/
+..\HW\Hardware\Timer\Timer.h(83): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Hardware\Port\Port.h(16): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Driver\DS18B20\DS18B20.h(32): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Application\PID\PID.h(46): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Application\PID\PID.c(230): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Application\PID\PID.c: 6 warnings, 0 errors
+compiling Task.c...
+..\HW\Common\Typedefine.h(126): warning:  #1-D: last line of file ends without a newline
+  /*************************END OF FILE**********************/
+..\HW\Hardware\Port\Port.h(16): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Driver\DS18B20\DS18B20.h(32): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Application\PID\PID.h(46): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Driver\TDS\TDS.h(7): warning:  #1295-D: Deprecated declaration TDS_ReadRaw - give arg types
+  uint16_t TDS_ReadRaw();
+..\HW\Driver\DHT11\DHT11.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HW\Driver\MK311\WATER.h(7): warning:  #1295-D: Deprecated declaration WATER_ReadRaw - give arg types
+  uint16_t WATER_ReadRaw();
+..\HW\Application\Task\Task.c(25): warning:  #223-D: function "UART1_Printf" declared implicitly
+    UART1_Printf("%s", str);
+..\HW\Application\Task\Task.c(53): warning:  #223-D: function "Timer_Init" declared implicitly
+  	Timer_Init();
+..\HW\Application\Task\Task.c(162): warning:  #223-D: function "Timer_Get100MsState" declared implicitly
+  	if (Timer_Get100MsState() == 1)
+..\HW\Application\Task\Task.c(164): warning:  #223-D: function "Timer_Clear100MsState" declared implicitly
+  		Timer_Clear100MsState();
+..\HW\Application\Task\Task.c(179): warning:  #223-D: function "Timer_Get200MsState" declared implicitly
+  	if (Timer_Get200MsState() == 1)
+..\HW\Application\Task\Task.c(181): warning:  #223-D: function "Timer_Clear200MsState" declared implicitly
+  		Timer_Clear200MsState();
+..\HW\Application\Task\Task.c(199): warning:  #223-D: function "Timer_Get500MsState" declared implicitly
+  	if (Timer_Get500MsState() == 1)
+..\HW\Application\Task\Task.c(201): warning:  #223-D: function "Timer_Clear500MsState" declared implicitly
+  		Timer_Clear500MsState();
+..\HW\Application\Task\Task.c(236): warning:  #223-D: function "Timer_GetSecState" declared implicitly
+      if (Timer_GetSecState() == 1)
+..\HW\Application\Task\Task.c(238): warning:  #223-D: function "Timer_ClearSecState" declared implicitly
+        Timer_ClearSecState();
+..\HW\Application\Task\Task.c(256): warning:  #223-D: function "Timer_GetMinState" declared implicitly
+  	if (Timer_GetMinState() == 1)
+..\HW\Application\Task\Task.c(258): warning:  #223-D: function "Timer_ClearMinState" declared implicitly
+  		Timer_ClearMinState();	
+..\HW\Application\Task\Task.c(282): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Application\Task\Task.c: 20 warnings, 0 errors
+compiling usart.c...
+..\Core\Src\usart.c(21): warning:  #223-D: function "Error_Handler" declared implicitly
+          Error_Handler();
+..\Core\Src\usart.c(40): warning:  #223-D: function "Error_Handler" declared implicitly
+          Error_Handler();
+..\Core\Src\usart.c(112): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\usart.c: 3 warnings, 0 errors
+compiling iwdg.c...
+compiling stm32f1xx_it.c...
+..\HW\Application\PID\PID.h(46): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\Core\Src\stm32f1xx_it.c: 1 warning, 0 errors
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_msp.c...
+compiling cJSON.c...
+..\HW\CJSON\cJSON.c(56): warning:  #1293-D: assignment in condition
+        if (!(copy = (char*)cJSON_malloc(len))) return 0;
+..\HW\CJSON\cJSON.c(279): warning:  #1293-D: assignment in condition
+  	ptr=str;while ((token=*ptr) && ++len) {if (strchr("\"\\\b\f\n\r\t",token)) len++; else if (token<32) len+=5;ptr++;}
+..\HW\CJSON\cJSON.c(353): warning:  #111-D: statement is unreachable
+  	return p.buffer;
+..\HW\CJSON\cJSON.c(424): warning:  #1293-D: assignment in condition
+  		if (!(new_item=cJSON_New_Item())) return 0; 	/* memory fail */
+..\HW\CJSON\cJSON.c(536): warning:  #1293-D: assignment in condition
+  		if (!(new_item=cJSON_New_Item()))	return 0; /* memory fail */
+..\HW\CJSON\cJSON.c: 5 warnings, 0 errors
+compiling tim.c...
+..\Core\Src\tim.c(88): warning:  #177-D: variable "sClockSourceConfig" was declared but never referenced
+      TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+..\Core\Src\tim.c(89): warning:  #177-D: variable "sMasterConfig" was declared but never referenced
+      TIM_MasterConfigTypeDef sMasterConfig = {0};
+..\Core\Src\tim.c: 2 warnings, 0 errors
+compiling TEMT6000.c...
+compiling TM1638.c...
+..\HW\Common\Typedefine.h(126): warning:  #1-D: last line of file ends without a newline
+  /*************************END OF FILE**********************/
+..\HW\Hardware\Port\Port.h(16): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Driver\TM1638\TM1638.h(52): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Driver\TM1638\TM1638.c(208): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Driver\TM1638\TM1638.c: 4 warnings, 0 errors
+compiling Port.c...
+..\HW\Hardware\Port\Port.h(16): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Hardware\Port\Port.c(28): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Hardware\Port\Port.c: 2 warnings, 0 errors
+compiling Timer.c...
+..\HW\Common\Typedefine.h(126): warning:  #1-D: last line of file ends without a newline
+  /*************************END OF FILE**********************/
+..\HW\Hardware\Timer\Timer.h(83): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Application\PID\PID.h(46): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Hardware\Timer\Timer.c(51): warning:  #223-D: function "printf" declared implicitly
+      printf("TIM4 500ms ‰ª?Âä?Êâ?Ë°?Ôº?Á¨? %lu Ê¨?\n", count);
+..\HW\Hardware\Timer\Timer.c: 4 warnings, 0 errors
+compiling DS18B20.c...
+..\HW\Common\Typedefine.h(126): warning:  #1-D: last line of file ends without a newline
+  /*************************END OF FILE**********************/
+..\HW\Hardware\Port\Port.h(16): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Driver\DS18B20\DS18b20.h(32): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Hardware\Timer\Timer.h(83): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Driver\DS18B20\DS18B20.c(318): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Driver\DS18B20\DS18B20.c: 5 warnings, 0 errors
+compiling PH.c...
+compiling OLED.c...
+compiling TDS.c...
+..\HW\Driver\TDS\TDS.h(7): warning:  #1295-D: Deprecated declaration TDS_ReadRaw - give arg types
+  uint16_t TDS_ReadRaw();
+..\HW\Driver\TDS\TDS.c: 1 warning, 0 errors
+compiling DHT11.c...
+..\HW\Driver\DHT11\DHT11.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HW\Common\Typedefine.h(126): warning:  #1-D: last line of file ends without a newline
+  /*************************END OF FILE**********************/
+..\HW\Hardware\Timer\Timer.h(83): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Hardware\Port\Port.h(16): warning:  #1-D: last line of file ends without a newline
+  /***********************************END OF FILE********************************/
+..\HW\Driver\DHT11\DHT11.c(21): warning:  #177-D: variable "humi" was declared but never referenced
+      uint8_t HumH, HumL, TempH, TempL,humi;
+..\HW\Driver\DHT11\DHT11.c: 5 warnings, 0 errors
+compiling WATER.c...
+..\HW\Driver\MK311\WATER.h(7): warning:  #1295-D: Deprecated declaration WATER_ReadRaw - give arg types
+  uint16_t WATER_ReadRaw();
+..\HW\Driver\MK311\WATER.c: 1 warning, 0 errors
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal_flash.c...
+assembling startup_stm32f10x_md.s...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_iwdg.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling system_stm32f10x.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_adc_ex.c...
+compiling stm32f1xx_hal_uart.c...
+compiling stm32f1xx_hal_adc.c...
+compiling stm32f1xx_hal_i2c.c...
+linking...
+Program Size: Code=16548 RO-data=412 RW-data=172 ZI-data=1836  
+FromELF: creating hex file...
+".\Objects\TEMPLATE.axf" - 0 Error(s), 73 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103C8
+  .\RTE\_TEMPLATE
+  D:\Program_Files\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\system_stm32f10x.c
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
+Build Time Elapsed:  00:00:22
+</pre>
+</body>
+</html>
