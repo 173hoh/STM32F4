@@ -56,7 +56,8 @@
   git checkout -b backup-branch
   git push origin backup-branch
   这样做可以保证即使主分支出现问题，仍然可以从备份分支恢复代码。
-
+  git checkout main
+  git push origin main
 步骤 5：定期推送和备份
   为了避免未来丢失代码历史，建议定期执行以下操作：
 
