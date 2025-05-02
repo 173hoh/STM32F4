@@ -1,0 +1,41 @@
+.\objects\step2p4w.o: ..\..\module\src\step2p4w.c
+.\objects\step2p4w.o: ..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\step2p4w.o: ..\..\library\CMSIS\core_cm4.h
+.\objects\step2p4w.o: D:\Program Files\KEIL V5\core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\step2p4w.o: ..\..\library\CMSIS\core_cmInstr.h
+.\objects\step2p4w.o: ..\..\library\CMSIS\core_cmFunc.h
+.\objects\step2p4w.o: ..\..\library\CMSIS\core_cm4_simd.h
+.\objects\step2p4w.o: ..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h
+.\objects\step2p4w.o: ..\..\board\inc\gd32f4xx_libopt.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h
+.\objects\step2p4w.o: ..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h
+.\objects\step2p4w.o: D:\Program Files\KEIL V5\core\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\step2p4w.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h
+.\objects\step2p4w.o: ..\..\module\inc\step2p4w.h
+.\objects\step2p4w.o: ..\..\bsp\inc\bsp_basic_timer.h
+.\objects\step2p4w.o: D:\Program Files\KEIL V5\core\ARM\ARMCC\Bin\..\include\stdio.h

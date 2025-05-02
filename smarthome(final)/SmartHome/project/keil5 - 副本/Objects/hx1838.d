@@ -1,0 +1,41 @@
+.\objects\hx1838.o: ..\..\module\src\hx1838.c
+.\objects\hx1838.o: ..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\hx1838.o: ..\..\library\CMSIS\core_cm4.h
+.\objects\hx1838.o: D:\Program Files\KEIL V5\core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hx1838.o: ..\..\library\CMSIS\core_cmInstr.h
+.\objects\hx1838.o: ..\..\library\CMSIS\core_cmFunc.h
+.\objects\hx1838.o: ..\..\library\CMSIS\core_cm4_simd.h
+.\objects\hx1838.o: ..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h
+.\objects\hx1838.o: ..\..\board\inc\gd32f4xx_libopt.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h
+.\objects\hx1838.o: ..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h
+.\objects\hx1838.o: D:\Program Files\KEIL V5\core\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\hx1838.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h
+.\objects\hx1838.o: ..\..\board\inc\systick.h
+.\objects\hx1838.o: D:\Program Files\KEIL V5\core\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\hx1838.o: ..\..\module\inc\hx1838.h

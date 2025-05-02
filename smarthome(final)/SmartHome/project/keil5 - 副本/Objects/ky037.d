@@ -1,0 +1,44 @@
+.\objects\ky037.o: ..\..\module\src\ky037.c
+.\objects\ky037.o: ..\..\module\inc\ky037.h
+.\objects\ky037.o: ..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\ky037.o: ..\..\library\CMSIS\core_cm4.h
+.\objects\ky037.o: D:\Program Files\KEIL V5\core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ky037.o: ..\..\library\CMSIS\core_cmInstr.h
+.\objects\ky037.o: ..\..\library\CMSIS\core_cmFunc.h
+.\objects\ky037.o: ..\..\library\CMSIS\core_cm4_simd.h
+.\objects\ky037.o: ..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h
+.\objects\ky037.o: ..\..\board\inc\gd32f4xx_libopt.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h
+.\objects\ky037.o: ..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h
+.\objects\ky037.o: D:\Program Files\KEIL V5\core\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\ky037.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h
+.\objects\ky037.o: ..\..\board\inc\systick.h
+.\objects\ky037.o: D:\Program Files\KEIL V5\core\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\ky037.o: ..\..\bsp\inc\bsp_basic_timer.h
+.\objects\ky037.o: ..\..\module\inc\sr602.h
+.\objects\ky037.o: ..\..\module\inc\mq2.h

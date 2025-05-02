@@ -1,0 +1,42 @@
+.\objects\rc522.o: ..\..\module\src\rc522.c
+.\objects\rc522.o: ..\..\module\inc\rc522.h
+.\objects\rc522.o: ..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\rc522.o: ..\..\library\CMSIS\core_cm4.h
+.\objects\rc522.o: D:\Program Files\KEIL V5\core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rc522.o: ..\..\library\CMSIS\core_cmInstr.h
+.\objects\rc522.o: ..\..\library\CMSIS\core_cmFunc.h
+.\objects\rc522.o: ..\..\library\CMSIS\core_cm4_simd.h
+.\objects\rc522.o: ..\..\library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h
+.\objects\rc522.o: ..\..\board\inc\gd32f4xx_libopt.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h
+.\objects\rc522.o: ..\..\library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h
+.\objects\rc522.o: D:\Program Files\KEIL V5\core\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\rc522.o: ..\..\library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h
+.\objects\rc522.o: ..\..\board\inc\systick.h
+.\objects\rc522.o: D:\Program Files\KEIL V5\core\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\rc522.o: D:\Program Files\KEIL V5\core\ARM\ARMCC\Bin\..\include\string.h
