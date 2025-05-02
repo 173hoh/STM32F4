@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: A YM, A, LIC=9WSKC-7FVGN-FWU2N-YXJPR-XCRLU-ZJJ4Z
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.18
+Toolchain Path:  D:\Program_Files\KEIL\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+D:\board\STM32F07ZGT6FREE\SMARTCLASS\USER\FATFS.uvprojx
+Project File Date:  11/23/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\Program_Files\KEIL\ARM\ARMCC\Bin'
+Build target 'FATFS'
+compiling main.c...
+main.c(48): warning:  #223-D: function "W25QXX_Init" declared implicitly
+      W25QXX_Init();              // ??始化W25Q128?娲???
+main.c(54): warning:  #223-D: function "DHT11_Init" declared implicitly
+      while(DHT11_Init()) {
+main.c(128): warning:  #223-D: function "DHT11_Read_Data" declared implicitly
+          DHT11_Read_Data(&temperature, &humidity); // ??取??湿??
+main.c(131): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+          sprintf(temp_buf, "%2d", temperature);    // 将?露?转换为?址?
+main.c(132): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+          sprintf(humi_buf, "%2d", humidity);       // 将湿??转换为?址?
+main.c(135): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+          OLED_ShowString(1, 5, temp_buf);          // ??OLED????示?露?
+main.c(136): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+          OLED_ShowString(2, 5, humi_buf);          // ??OLED????示湿??
+main.c(141): warning:  #111-D: statement is unreachable
+      OLED_Clear(); // ????
+main.c(34): warning:  #177-D: variable "i" was declared but never referenced
+      u32 total, free, i;          // ?娲?SD卡??量??息
+main.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=48496 RO-data=178324 RW-data=696 ZI-data=1227336  
+FromELF: creating hex file...
+"..\OBJ\FATFS.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_FATFS
+  D:\Program_Files\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
